@@ -1,0 +1,27 @@
+{
+    "name": "Titanium Oxydizer",
+    "description": "An advanced crucible. Zaps and heats Graphite and Lead in Water to bond them as Titanium. Uses power",
+    "type": "GenericCrafter",
+    "health": 720,
+    "size": 3,
+    "category": "crafting",
+    "outputItem": {"item": "titanium", "amount": 1},
+    "craftTime": 60,
+    "consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				{ "item": "lead", "amount": 3 },
+				{ "item": "graphite", "amount": 2 },
+			]
+		}
+	},
+    "requirements":
+    [
+    { "item": "titanium", "amount": 150 },
+    { "item": "graphite", "amount": 50 },
+    { "item": "metaglass", "amount": 50 },
+    { "item": "silicon", "amount": 75 }
+    ],
+    "research": "silicon-smelter",
+}
